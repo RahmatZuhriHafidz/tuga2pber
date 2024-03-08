@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".iWatchActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewiwatch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+            <ImageView
+                android:id="@+id/imageViewiwatch1"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/applewatchnike" />
+
+            <TextView
+                android:id="@+id/textViewTitleiwatch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageViewiwatch1"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewiwatch1"
+                android:text="AppleWatch Nike "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescriptioniwatch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleiwatch1"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewiwatch1"
+                android:text="Apple dan Nike telah memotivasi banyak orang untuk berlari selama bertahun-tahun."
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textTrendHPiwatch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleiwatch1"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@id/imageViewiwatch1"
+                android:text="AppleWatch Nike, Dirancang untuk para pelari, atlet, dan penggemar olahraga, iWatch Nike akan menjadi mitra sempurna Anda dalam setiap langkah perjalanan Anda."
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewiwatch2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardViewiwatch1"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+            <ImageView
+                android:id="@+id/imageViewiwatch2"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/applewatchse" />
+
+            <TextView
+                android:id="@+id/textViewTitleiwatch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageViewiwatch2"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewiwatch2"
+                android:text="AppleWatch SE"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescriptioniwatch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleiwatch2"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewiwatch2"
+                android:text="Tampil dengan Sensor Cahaya Sekitar,Altimeter Always Active,Sensor Jantung Optik,dan GPS L1"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textTrendHPiwatch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleiwatch2"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@id/imageViewiwatch2"
+                android:text=" 100% Berbahan Dasar Aluminium daur ulang !!"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewiwatch3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardViewiwatch2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+            <ImageView
+                android:id="@+id/imageViewiwatch3"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/applewatchseries7" />
+
+            <TextView
+                android:id="@+id/textViewTitleiwatch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageViewiwatch3"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewiwatch3"
+                android:text="AppleWatch Series 7 "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescriptioniwatch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleiwatch3"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewiwatch3"
+                android:text="Layar Jenis LTPO OLED,kecerahan 1000 Nit, memiliki Kaca Kristal dan fitur AppleWatch lainnya"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textTrendHPiwatch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleiwatch3"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@id/imageViewiwatch3"
+                android:text=" Menggunakan GPS GLONASS dengan Akselerometer "
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewiwatch4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardViewiwatch3"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+            <ImageView
+                android:id="@+id/imageViewiwatch4"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/applewatchseries9" />
+
+            <TextView
+                android:id="@+id/textViewTitleiwatch4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageViewiwatch4"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewiwatch4"
+                android:text="Apple Watch Series 9"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescriptioniwatch4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleiwatch4"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewiwatch4"
+                android:text="Sensor Jantung Elektrik dan Tahan Debu dengan sertifikat IP6X, Sensor Oksigen Darah, Sensor Jantung Optik Gen 3"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textTrendHPiwatch4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleiwatch4"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@id/imageViewiwatch4"
+                android:text="Tampil Edition dengan Warna Merah !!"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewiwatch5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardViewiwatch4"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+            <ImageView
+                android:id="@+id/imageViewiwatch5"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/applewatchultra2" />
+
+            <TextView
+                android:id="@+id/textViewTitleiwatch5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageViewiwatch5"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewiwatch5"
+                android:text="AppleWatch Ultra 2"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescriptioniwatch5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleiwatch5"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewiwatch5"
+                android:text="Apple Watch paling tangguh dan andal yang mendobrak batasan. Menghadirkan S9 SiP yang sepenuhnya baru. Sentuh Layar tanpa Menyentuhnya"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textTrendHPiwatch5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleiwatch5"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@id/imageViewiwatch5"
+                android:text=" Layar Produk Apple Paling Terang yang Pernah ada !!"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

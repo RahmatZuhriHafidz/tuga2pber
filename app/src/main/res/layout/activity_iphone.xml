@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".iphoneActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/iphone14pro" />
+
+            <TextView
+                android:id="@+id/textViewTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageView1"
+                android:layout_marginStart="65dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toEndOf="@id/imageView1"
+                android:text="iPhone 14 Pro"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescription1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/imageView1"
+                android:gravity="center"
+                android:text="REKAM VIDEO 4K,LAYAR SUPER RETINA XDR,RESOLUSI 2532 x 1170 px,HAPTIC TOUCH,CHIP A15 BIONIC"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textTrendHP1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@id/imageView1"
+                android:text="TOP PENJUALAN 5 TERBAIK 2022-2023 !!"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardView1"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/iphone14promax" />
+
+            <TextView
+                android:id="@+id/textViewTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageView2"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/imageView2"
+                android:text="iPhone 14 Pro Max"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescription2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle2"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageView2"
+                android:text="REKAM VIDEO 4K 60 FPS,LAYAR SUPER RETINA XDR,RESOLUSI 2796 x 1290 px,DYNAMIC ISLAND,CHIP A16 BIONIC"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textTrendHP2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle2"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@id/imageView2"
+                android:text="DYNAMIC ISLAND PERTAMA DI SERIES IPHONE !!"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardView2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ip15biasa" />
+
+            <TextView
+                android:id="@+id/textViewTitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageView3"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageView3"
+                android:text="iPhone 15 "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescription3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle3"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageView3"
+                android:text="TAMPILAN PINK DENGAN CERAMIC SHIELD,RESOLUSI 2556 x 1179 px,DYNAMIC ISLAND,CHIP A16 BIONIC,FITUR IPHONE 14 LAINNYA"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textTrendHP3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle3"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@id/imageView3"
+                android:text="TAMPIL DENGAN CERAMIC SHIELD !!"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardView3"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ip15pro" />
+
+            <TextView
+                android:id="@+id/textViewTitle4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageView4"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageView4"
+                android:text="iPhone 15 Pro"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescription4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle4"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageView4"
+                android:text="BAHAN TITANIUM,RESOLUSI 2556 x 1179 px,TEKNOLOGI PRO MOTION REFRESH RATE 120Hz,INCLUDE FITUR IPHONE 14 DAN 15"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textTrendHP4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle4"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@id/imageView4"
+                android:text="TAMPIL GAHAR DENGAN CHIPSET A17 BIONIC !!"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardView4"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ip15promax" />
+
+            <TextView
+                android:id="@+id/textViewTitle5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageView5"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageView5"
+                android:text="iPhone 15 Pro Max"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescription5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle5"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageView5"
+                android:text="TITANIUM,RESOLUSI 2796 x 1290 px,TEKNOLOGI PRO MOTION WITH 120Hz,REFRESH RATE, INCLUDE FITUR IPHONE 14 DAN 15"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textTrendHP5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle5"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@id/imageView5"
+                android:text="LAYAR ZOOM HINGGA 25x LEBIH JAUH!!"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

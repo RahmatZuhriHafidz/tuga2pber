@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".iPadActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewipad1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+            <ImageView
+                android:id="@+id/imageViewipad1"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ipadair5thgen" />
+
+            <TextView
+                android:id="@+id/textViewTitleipad1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageViewipad1"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewipad1"
+                android:text="Ipad Air 5th Generation"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescriptionipad1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleipad1"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewipad1"
+                android:text="Chipset A13 Bionic,Layar Retina lPS LED,Resolusi 2160x1620px,Sistem Operasi iPadOS 15"
+                android:textAlignment="center"
+
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textTrendHPipad1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleipad1"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@id/imageViewipad1"
+                android:text=" Tersedia dalam warna Starlight !!"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewipad2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardViewipad1"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+            <ImageView
+                android:id="@+id/imageViewipad2"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ipad8thgen" />
+
+            <TextView
+                android:id="@+id/textViewTitleipad2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageViewipad2"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewipad2"
+                android:text="iPad 8th Generation"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescriptionipad2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleipad2"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewipad2"
+                android:text="Chipset A12 Bionic,Neural Engine,Rekam Video 1080HD pada 30fps,Layar Retina,Multitouch"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textTrendHPipad2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleipad2"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@id/imageViewipad2"
+                android:text=" Tersedia dalam warna Emas dan Perak !!"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewipad3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardViewipad2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+            <ImageView
+                android:id="@+id/imageViewipad3"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ipad9thgen" />
+
+            <TextView
+                android:id="@+id/textViewTitleipad3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageViewipad3"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewipad3"
+                android:text="iPad 9th Generation "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescriptionipad3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleipad3"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewipad3"
+                android:text="Chipset A13 Bionic,Lapisan Oleophobic anti Sidik Jari,Kamera Ultra Wide,Mikrofon Ganda "
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textTrendHPipad3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleipad3"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@id/imageViewipad3"
+                android:text=" Tersedia Mode Beruntun KAMERA DEPAN !!"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewipad4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardViewipad3"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+            <ImageView
+                android:id="@+id/imageViewipad4"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ipad10thgen" />
+
+            <TextView
+                android:id="@+id/textViewTitleipad4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageViewipad4"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="9dp"
+                android:layout_toEndOf="@id/imageViewipad4"
+                android:text="iPad 10th Generation"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescriptionipad4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleipad4"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewipad4"
+                android:text="Layar Multi Touch dengan teknologi,Kecerahan 500 Nit,menggunakan Chipset A14 Bionic dengan Neural Engine 16-Core"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textTrendHPipad4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleipad4"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@id/imageViewipad4"
+                android:text="Tersedia dalam Warna Biru dan Pink Limited !!"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewipad5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardViewipad4"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+            <ImageView
+                android:id="@+id/imageViewipad5"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ipadpro" />
+
+            <TextView
+                android:id="@+id/textViewTitleipad5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageViewipad5"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewipad5"
+                android:text="iPad Pro 11th Generation"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescriptionipad5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleipad5"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewipad5"
+                android:text="Tersedia dengan Memori hingga 1TB,5 Mikrofon,Teknologi Pro Motion, dengan Layar Warna Luas, serta Kecerahan mencapai 600 NIT"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textTrendHPipad5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleipad5"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@id/imageViewipad5"
+                android:text=" Tampil dengan Lensa Lima Elemen dan Mode Panorama hingga 63 Megapx"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
